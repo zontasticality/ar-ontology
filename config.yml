@@ -1,10 +1,5 @@
 select_origin: directory
 files_origin: "./data"
-nodes_origin: ""
-links_origin: ""
-nodes_online: ""
-links_online: ""
-images_origin: ""
 export_target: "./export/"
 history: true
 focus_max: 2
@@ -85,15 +80,15 @@ record_metas: []
 generate_id: always
 link_context: tooltip
 hide_id_from_record_header: false
-title: "Automated Reasoning Ontology"
-author: "The Automated Reasoners"
-description: ""
+title: "The State Ontology"
+author: "Zon"
+description: "State Ontology"
 keywords: []
-link_symbol: ""
-csl: ""
-bibliography: ""
-csl_locale: ""
-css_custom: ""
+# link_symbol: ""
+# csl: ""
+# bibliography: ""
+# csl_locale: ""
+# css_custom: ""
 devtools: false
 lang: en
 start_page: "start"
