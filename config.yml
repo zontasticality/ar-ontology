@@ -4,6 +4,9 @@ export_target: "./export/"
 history: true
 focus_max: 2
 record_types:
+  algorithm:
+    fill: "#F136DC"
+    stroke: "#F136DC"
   undefined:
     fill: "#858585"
     stroke: "#858585"
