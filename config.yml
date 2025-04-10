@@ -72,7 +72,7 @@ generate_id: always
 link_context: tooltip
 hide_id_from_record_header: false
 title: "The Automated Reasoning Ontology"
-author: "Zon"
+author: "The Automated Reasoners"
 description: "Automated Reasoning Ontology"
 keywords: []
 # link_symbol: ""
