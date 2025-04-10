@@ -1,8 +1,6 @@
-#!/usr/bin/env bash
-
-DIRECTORIES=(./data "$HOME/Repos/cosma/core")
+DIRECTORIES=(./data "$HOME/Repos/w_cosma/core")
 DIRECTORY="./data "  # Relative path to the 'data' subdirectory
-DIRECTORY2="$HOME/Repos/cosma"
+DIRECTORY2="$HOME/Repos/w_cosma"
 COMMAND="cosma modelize"
 
 inotifywait -m -r -e close_write --format '%w%f' "${DIRECTORIES[@]}" | while read MODIFIED
