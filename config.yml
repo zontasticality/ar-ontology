@@ -7,49 +7,43 @@ record_types:
   start:
     fill: "#EF4C4C"
     stroke: "#EF4C4C"
-  algorithm:
-    fill: "#F136DC"
-    stroke: "#F136DC"
   structure:
     fill: "#00B2D1"
     stroke: "#00B2D1"
   category:
     fill: "#4CEF88"
     stroke: "#4CEF88"
-  undefined:
-    fill: "#858585"
-    stroke: "#858585"
-  other:
-    fill: "#B3F6CB"
-    stroke: "#B3F6CB"
+  algorithm:
+    fill: "#F136DC"
+    stroke: "#F136DC"
   source:
     fill: "#252525"
     stroke: "#252525"
-  quote:
-    fill: "#F136DC"
-    stroke: "#F136DC"
-  term:
-    fill: "#24009B"
-    stroke: "#24009B"
+  other:
+    fill: "#B3F6CB"
+    stroke: "#B3F6CB"
   argument:
+    fill: "#858585"
+    stroke: "#858585"
+  undefined:
     fill: "#858585"
     stroke: "#858585"
 link_types:
   subtype: # something is in another category
     stroke: simple
     color: "#C5F136"
-  undefined:
-    stroke: simple
-    color: "#e1e1e1"
-  contains:
-    stroke: simple
-    color: "#000000"
-  cites:
-    stroke: simple
-    color: "#000000"
   uses:
     color: "#00B2D1"
     stroke: simple
+  mentions:
+    stroke: simple
+    color: "#FF8686"
+  cites:
+    stroke: simple
+    color: "#000000"
+  undefined:
+    stroke: simple
+    color: "#e1e1e1"
 references_as_nodes: false
 references_type_label: references
 record_filters: []
