@@ -1,7 +1,7 @@
 select_origin: directory
 files_origin: "./data"
 export_target: "./export/"
-history: true
+history: false
 focus_max: 2
 record_types:
   algorithm:
