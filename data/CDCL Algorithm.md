@@ -1,5 +1,5 @@
 ---
-title: CDCL
+title: CDCL Algorithm
 type: algorithm
 ---
 

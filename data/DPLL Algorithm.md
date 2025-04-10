@@ -1,5 +1,5 @@
 ---
-title: DPLL
+title: DPLL Algorithm
 type: algorithm
 ---
 
