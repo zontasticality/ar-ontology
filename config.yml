@@ -83,9 +83,9 @@ record_metas: []
 generate_id: always
 link_context: tooltip
 hide_id_from_record_header: false
-title: "The State Ontology"
+title: "The Automated Reasoning Ontology"
 author: "Zon"
-description: "State Ontology"
+description: "Automated Reasoning Ontology"
 keywords: []
 # link_symbol: ""
 # csl: ""
