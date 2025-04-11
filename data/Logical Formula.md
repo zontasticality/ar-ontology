@@ -3,4 +3,4 @@ title: Logical Formula
 type: structure
 ---
 
-A logical formula is a sequence of symbols in some logical language that can be evaluated with an interpretation function.
+A logical formula is a kind of [[subtype:well-formed formula]]. The defining feature of a logical formula is that it can be 
