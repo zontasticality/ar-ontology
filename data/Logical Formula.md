@@ -1,6 +1,6 @@
 ---
 title: Logical Formula
-type: structure
+type: category
 ---
 
-A logical formula is a kind of [[subtype:well-formed formula]]. The defining feature of a logical formula is that it can be 
+A logical formula is a [[is-a:formal construct]] associated with a [[uses:logical framework]], and can usually be interpreted as either true or false, potentially with respect to some assignment.

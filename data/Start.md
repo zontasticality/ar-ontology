@@ -22,7 +22,7 @@ Node Types
 
 Link Types
  - `subtype` - if a concept (a `structure` or a `category`) inherits traits/properties from another concept, the concept inheriting traits should link to the supertype using the `subtype` link.
- - `uses` - if a concept uses another concept in its definition, for example, a `structure` that is constructed from other `structures` this link can be used.
+ - `uses` - if a concept uses another concept in its definition, for example, a `structure` that is constructed from other `structure`s this link can be used.
  - `mentions` - if any note mentions another note, but not in any kind of particular way, this link type may be used.
  - `cites` - should be used to link to `source` nodes, to cite that source.
 
