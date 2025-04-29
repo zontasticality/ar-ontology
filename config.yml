@@ -38,6 +38,9 @@ link_types:
   mentions:
     stroke: simple
     color: "#FF8686"
+  equivalent:
+    stroke: simple
+    color: "#EA72FF"
   cites:
     stroke: simple
     color: "#000000"
