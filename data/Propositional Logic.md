@@ -3,10 +3,4 @@ title: Propositional Logic
 type: structure 
 ---
 
-Propositional logic is a [[is-a:logical framework]] wherein logical sentences are constructed using [[uses:propositional variable|propositional variables]] and the following connectives, modifiers and constants:
- - [[uses:True]]
- - [[uses:False]]
- - [[uses:Logical negation]]
- - [[uses:Logical conjunction]]
- - [[uses:Logical disjunction]]
- - [[uses:Logical implication]]
+**Propositional Logic** is simply the [[is-a:intuitionistic propositional logic]] combined with the [[uses:law of the excluded middle]], or double negation elimination (they are equivalent axioms), enabling proofs by contradiction.
