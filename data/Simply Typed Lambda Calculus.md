@@ -19,20 +19,20 @@ The types in STLC consist of the following primitives:
 
 And the following typing rules, see the [[is-a:type theory|type theory page]] for more info on how these work.
 
-Primitives:
-$$\frac{}{\Gamma \vdash () : \top} \text{unit}$$
-$$\frac{\Gamma \vdash A \quad \Gamma \vdash A \rightarrow \bot}{\Gamma \vdash \text{void} : \bot} \text{void}$$
+Introduction Rules:
+$$\frac{}{\Gamma \vdash () : \text{Unit}} \text{unit}$$
+$$\frac{\Gamma \vdash A \quad \Gamma \vdash A \rightarrow \text{Void}}{\Gamma \vdash \text{void} : \text{Void}} \text{void}$$
 
-Constructions:
 $$\frac{\Gamma, x:A \vdash b : B}{\Gamma \vdash \lambda x.b : A \rightarrow B} \text{function}$$
 
 $$\frac{\Gamma \vdash a : A \quad \Gamma \vdash b : B}{\Gamma \vdash (a, b) : A \times B} \text{pair}$$
 
+Elimination Rules:
 $$\frac{\Gamma \vdash a : A}{\Gamma \vdash \text{inl}(a) : A \lor B} \text{in-left}$$
 
 $$\frac{\Gamma \vdash b : B}{\Gamma \vdash \text{inr}(b) : A \lor B} \text{in-right}$$
 
-Computation:
+Computation Rules:
 
 $$\frac{\Gamma \vdash (\lambda x.b) : A \rightarrow B \quad \Gamma \vdash a : A}{\Gamma \vdash (\lambda x.b) a \rightarrow b[x:=a]} \text{beta-reduction}$$
 
