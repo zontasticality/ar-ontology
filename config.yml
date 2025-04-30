@@ -29,18 +29,22 @@ record_types:
     fill: "#858585"
     stroke: "#858585"
 link_types:
-  subtype: # something is in another category
+  is-a: # something is in another category
     stroke: simple
     color: "#C5F136"
+    force: 20
   uses:
     color: "#00B2D1"
     stroke: simple
+    force: 15
   mentions:
     stroke: simple
     color: "#FF8686"
+    force: 5
   equivalent:
     stroke: simple
     color: "#EA72FF"
+    force: 1
   cites:
     stroke: simple
     color: "#000000"
