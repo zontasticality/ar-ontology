@@ -61,10 +61,10 @@ graph_text_size: 6
 graph_arrows: true
 node_size_method: degree
 node_size: 10
-node_size_max: 10
+node_size_max: 15
 node_size_min: 5
-attraction_force: 200
-attraction_distance_max: 250
+attraction_force: 600
+attraction_distance_max: 800
 attraction_vertical: 0
 attraction_horizontal: 0
 views: {}
