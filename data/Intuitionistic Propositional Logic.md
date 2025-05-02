@@ -1,14 +1,15 @@
 ---
 title: Intuitionistic Propositional Logic
-type: structure 
+type: structure
 ---
+**Intuitionistic Propositional Logic (IPL)** is a [[is-a:logical framework]] that is a variant of [[mentions:propositional logic]] where the [[mention:law of excluded middle]] is not assumed as an axiom. IPL is an instance of [[uses:Implicational Intuitionistic Propositional Logic]] with the following additional constructions:
 
-**Intuitionistic Propositional Logic (IPL)** is a [[is-a:logical framework]] wherein logical sentences are constructed using [[uses:propositional variable|propositional variables]] combined with the following connectives, modifiers and constants:
  - [[uses:True]]: $\top$
  - [[uses:False]]: $\bot$
- - [[uses:Logical negation]]: $\neg A$
- - [[uses:Logical conjunction]]: $A \land B$
- - [[uses:Logical disjunction]]: $A \lor B$
- - [[uses:Logical implication]]: $A \rightarrow B$
+ - [[uses:Logical Conjunction]]: $A \land B$
+ - [[uses:Logical Disjunction]]: $A \lor B$
+ - [[uses:Logical Negation]]: $\neg A$
 
-It is equivalent to the [[equivalent:simply typed lambda calculus]] via the [[mention:Curry-Howard Correspondence]] where every proposition and proof in IPL corresponds to a type and term in STLC.
+In IPL, a proposition is considered true only if there is a constructive proof for it. This means that to prove a statement or formula, one must provide a direct construction or evidence of its truth, rather than relying on the impossibility of its negation.
+
+IPL is closely related to [[mentions:simply typed lambda calculus]] via the [[mention:Curry-Howard Correspondence]], where proofs in IPL correspond to terms in STLC and propositions correspond to types.
