@@ -26,3 +26,4 @@ Link Types
  - `mentions` - if any note mentions another note, but not in any kind of particular way, this link type may be used.
  - `cites` - should be used to link to `source` nodes, to cite that source.
 
+If you're curious about the source code of this repository, check out the following link: https://github.com/zontasticality/ar-ontology
