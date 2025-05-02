@@ -1,0 +1,54 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-node@v3
+      
+      - uses: actions/checkout@v4
+        with:
+          repository: wsommers0/cosma
+          path: cosma
+
+      - name: Build cosma
+        run: |
+          cd $GITHUB_WORKSPACE/cosma
+          npm install
+
+      - uses: actions/checkout@v4
+        with:
+          path: ar-ontology
+
+      - name: Modelize
+        run: |
+          cd $GITHUB_WORKSPACE/ar-ontology
+          mkdir export
+          export XDG_STATE_HOME=$GITHUB_WORKSPACE/.local/state
+          mkdir -p $XDG_STATE_HOME
+          node $GITHUB_WORKSPACE/cosma/dist/back.cjs modelize
+          mv export/cosmoscope.html export/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ar-ontology/export/
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
