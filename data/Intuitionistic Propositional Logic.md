@@ -12,4 +12,4 @@ type: structure
 
 In IPL, a proposition is considered true only if there is a constructive proof for it. This means that to prove a statement or formula, one must provide a direct construction or evidence of its truth, rather than relying on the impossibility of its negation.
 
-IPL is closely related to [[mentions:simply typed lambda calculus]] via the [[mention:Curry-Howard Correspondence]], where proofs in IPL correspond to terms in STLC and propositions correspond to types.
+IPL is exactly equivalent to related to [[mentions:intuitionistically-typed lambda calculus]] via the [[mention:Curry-Howard Correspondence]], where proofs in IPL correspond to terms in STLC and propositions correspond to types.

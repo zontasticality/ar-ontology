@@ -2,25 +2,19 @@
 title: Intuitionistically-Typed Lambda Calculus
 type: structure
 ---
-The **Intuitionistically-typed lambda calculus (STLC)** is a [[is-a:type theory]] and extension of [[is-a:simply-typed lambda calculus]] that adds:
+The **Intuitionistically-typed lambda calculus (ITLC)** is a [[is-a:type theory]] and extension of [[is-a:simply-typed lambda calculus]] that, in addition to function types adds:
 
  - [[uses:Empty Type|Empty Types]]
  - [[uses:Unit Type|Unit Types]]
  - [[uses:Product Type|Product Types]]
  - [[uses:Sum Type|Sum Types]]
- - [[uses:Negation Type|Negation Types]]
+ - Negation: (can be constructed from Function type and Empty type)
 
 The ITLC is not a standard term in the literature, but it does provide a core building block of other type theories.
 
 It is equivalent to [[equivalent:intuitionistic propositional logic]] via the [[mention:Curry-Howard Correspondence]] where every type and term in ITLC corresponds to a proposition and proof in IPL.
 
-The types in STLC consist of the following primitives:
- - [[uses:Function Type]]
-
-And the following typing rules, see the [[is-a:type theory|type theory page]] for more info on how these work.
-
-New Typing Rules:
-
+Formally, the added rules can be described using the following sequent calculus declarations. (See more on the sequence calculus on the [[is-a:type theory|type theory page]])
 
 $$\frac{}{\Gamma \vdash () : \text{Unit}} \text{unit}$$
 
