@@ -7,4 +7,9 @@ A **Formal Logic** is a [[is-a: Formal System]] that provides the foundational s
 
 Examples include [[uses:Propositional Logic]], Predicate Logic, also referred to as [[uses:First Order Logic]] and various modal or temporal logics. Each logic allows reasoning about different kinds of statements and structures.
 
-TODO: Give a more formal description in terms of set theory (sorts & functions)
+### Conceptual Structure
+Many formal logics can be conceptually characterized by:
+1.  **[[uses:Formal Grammar|Syntax]]**
+	* A description of what structures exist in the logic (true false, symbols, quantifiers, etc.) and what something a [[uses:well-formed formula]]
+2.  **Semantics**
+	* A way to assign [[mention:true|truthity]] or [[mention:false|falsity]] to well-formed formulas. This includes notions like [[uses:assignment|logical assignment]], [[uses:satisfying assignment]], a deductive system or set of [[uses:rule of inference|rules of inference]].

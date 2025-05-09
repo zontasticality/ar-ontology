@@ -16,7 +16,6 @@ FOL adds the following structures to propositional logic, but the details of som
 Examples:
  - "All humans are mortal" $\rArr$ $\forall x. (\text{Human}(x) \rightarrow \text{Mortal}(x))$.
  - "Joey and Jill can become friends with anyone" $\rArr \forall p : \text{Person}. (\text{CanBecomeFriendsWith(Joey, p)} \land \text{CanBecomeFriendsWith(Jill, p)})$.
+*   
 
-TODO: Create nodes for Sort, Function Symbol (in FOL context).
 
-Links to various theories of first order logic can be found [[mention:First Order Logic Theory|here]]:

@@ -48,7 +48,7 @@ link_types:
   uses:
     color: "#00B2D1"
     stroke: dash
-    force: 0.5
+    force: 1
   # Use to connect to objects that are equivalent
   equivalent:
     stroke: simple
