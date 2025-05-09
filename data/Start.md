@@ -17,13 +17,15 @@ Node Types
  - `category` - an informally (extensionally) defined concept, perhaps defined in terms of shared experience or other colloquial terms.
  - `algorithm` - a specific function or program
  - `source` - a note linking to and sometimes summarizing an external document.
- - `argument` - a note arguing for a certain point of view (TODO: do we expect to use this?)
+ - `argument` - a note arguing for a certain point of view (e.g., [[mention:Feasibility of Program Inference]]).
  - `undefined` - notes that don't have a good category yet.
 
 Link Types
- - `subtype` - if a concept (a `structure` or a `category`) inherits traits/properties from another concept, the concept inheriting traits should link to the supertype using the `subtype` link.
+ - `is-a` - if a concept (a `structure` or a `category`) inherits traits/properties from another concept, the concept inheriting traits should link to the supertype using the `is-a` link.
+ - `is-broadly` - Basically the same as `is-a` but for more longer-range subtyping relations in order to create a better visualization.
  - `uses` - if a concept uses another concept in its definition, for example, a `structure` that is constructed from other `structure`s this link can be used.
- - `mentions` - if any note mentions another note, but not in any kind of particular way, this link type may be used.
+ - `part` - if a concept is a part of another concept, i.e. some other concept is an integral aspect (piece that is composed), this can be used as a "stronger" connection than `uses` to make the graph nicer (has a stronger force for the force-graph).
+ - `mention` - if any note mentions another note, but not in any kind of particular way, this link type may be used.
  - `cites` - should be used to link to `source` nodes, to cite that source.
 
 If you're curious about the source code of this repository, check out the following link: https://github.com/zontasticality/ar-ontology

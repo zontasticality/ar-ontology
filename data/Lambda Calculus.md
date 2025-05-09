@@ -3,11 +3,15 @@ title: Lambda Calculus
 type: structure
 ---
 
-Lambda calculus (λ-calculus) is a [[is-a:well-formed formula]] in some [[mention:formal grammar]] that encodes computation using function abstraction, variable binding, application, and substitution.
+The **lambda calculus** (λ-calculus) is a particular type of [[is-a:expression]] or more broadly, a [[is-broadly:well-formed formula]] in some [[mention:formal grammar]] that encodes computation using function abstraction, variable binding, application, and substitution.
 
 It is a universal [[is-a:Model of Computation]], equivalent in power to [[mention:Turing Machine|Turing machines]].
 
-The lambda calculus can also be encode as a [[is-a:data type]] with the following variants:
- - variables
- - abstractions λx.M
- - applications M N
+Fun fact: when implementing the lambda calculus, it can be encoded as a [[mention:data type]] like as follows:
+```rust
+enum LambdaExpression {
+	Variable { name : String }
+	Abstraction { bound : String, body: LambdaExpression }
+	Application { left: LambdaExpression, right: LambdaExpression }
+}
+```
