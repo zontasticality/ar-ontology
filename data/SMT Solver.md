@@ -5,7 +5,7 @@ type: category
 
 An **SMT solver** is an implementation of algorithms that can solve [[uses: first order logic]] [[uses:Logical Formula|formula]], usually conjoined with some extra theory $T$.
 
-SMT solvers work by combining the techniques of [[mentions:satisfiability solver|SAT solvers]] (like [[mentions:CDCL Algorithm|CDCL]]) with theory-specific solvers. The core SAT solver handles the boolean structure of the formula, while theory solvers handle the constraints imposed by the theory $T$.
+SMT solvers work by combining the techniques of [[mention:satisfiability solver|SAT solvers]] (like [[mention:CDCL Algorithm|CDCL]]) with theory-specific solvers. The core SAT solver handles the boolean structure of the formula, while theory solvers handle the constraints imposed by the theory $T$.
 
 The process generally involves:
 

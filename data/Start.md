@@ -5,7 +5,7 @@ type: start
 
 # Welcome to the Automated Reasoning Ontology!
 
-This is an ontology to catalogue and investigate concepts in Automated Reasoning. Specifically to answer the question: [[mentions:Feasibility of Program Inference|To what degree can existing logical frameworks and their satisfiability algorithms be generalized and applied to inferring programs in different type theories?]].
+This is an ontology to catalogue and investigate concepts in Automated Reasoning. Specifically to answer the question: [[mention:Feasibility of Program Inference|To what degree can existing logical frameworks and their satisfiability algorithms be generalized and applied to inferring programs in different type theories?]].
 
 ## Types
 

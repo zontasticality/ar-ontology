@@ -43,26 +43,27 @@ link_types:
   is-broadly:
     color: "#C5F136"
     stroke: dash
-    force: 10
+    force: 1
   # Link to a relevant but not direct/super important component of this node. (i.e. you don't want the two nodes to be super close)
   uses:
     color: "#00B2D1"
     stroke: dash
-    force: 10
+    force: 0.5
   # Use to connect to objects that are equivalent
   equivalent:
     stroke: simple
-    color: "#EA72FF"
-    force: 5
+    color: "#000000"
+    force: 15
   # Use to mention-link to another nodes
-  mentions:
+  mention:
     stroke: dash
     color: "#FF8686"
-    force: 1
+    force: 0
   # Use 
   cites:
     stroke: simple
-    color: "#000000"
+    color: "#e1e1e1"
+    force: 1
   undefined:
     stroke: simple
     color: "#e1e1e1"

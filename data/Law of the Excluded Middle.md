@@ -8,4 +8,4 @@ Formally, it can be expressed as:
 
 $A \lor \neg A$
 
-This principle is a key difference between [[mentions:intuitionistic propositional logic]] and [[mentions:propositional logic]].
+This principle is a key difference between [[mention:intuitionistic propositional logic]] and [[mention:propositional logic]].
