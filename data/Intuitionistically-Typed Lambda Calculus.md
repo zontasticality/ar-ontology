@@ -1,8 +1,8 @@
 ---
-title: Intuitionistically-Typed Lambda Calculus
+title: Intuitionistically Typed Lambda Calculus
 type: structure
 ---
-The **Intuitionistically-typed lambda calculus (ITLC)** is a [[is-a:type theory]] and extension of [[is-a:simply-typed lambda calculus]] that, in addition to function types adds:
+The **Intuitionistically typed lambda calculus (ITLC)** is a [[is-a:type theory]] and extension of [[is-a:simply-typed lambda calculus]] that, in addition to function types adds:
 
  - [[uses:Empty Type|Empty Types]]
  - [[uses:Unit Type|Unit Types]]

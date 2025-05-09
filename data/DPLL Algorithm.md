@@ -3,11 +3,11 @@ title: DPLL Algorithm
 type: algorithm
 ---
 
-The **DPLL algorithm** is an algorithm for [[uses:propositional formula|propositional]] [[is-a:satisfiability solver|satisfiability solving]]. It is a backtracking-based search algorithm designed to determine the satisfiability of a [[uses:propositional logic]] formula in [[uses:Conjunctive Normal Form (CNF)|Conjunctive Normal Form (CNF)]].
+The **DPLL algorithm** is an algorithm for [[uses:propositional formula|propositional]] [[is-a:satisfiability solver|satisfiability solving]]. It is a backtracking-based search algorithm designed to determine the satisfiability of a [[uses:propositional formula]] in [[uses:Conjunctive Normal Form (CNF)|conjunctive normal form (CNF)]].
 
 ### How it Works
 
-The algorithm systematically explores possible truth [[uses:Assignment|assignments]] for the variables in the formula. It operates through a recursive process involving three main steps:
+The algorithm systematically explores the space of all possible combinations of truth [[uses:Assignment|assignments]] for each of the variables in the formula. It operates through a recursive process involving three main steps:
 
 1.  **Unit Propagation (or 1-literal rule):**
     *   If a clause in the formula is a *unit clause* (i.e., it contains only a single unassigned literal), that literal must be assigned a truth value that makes the clause true.
@@ -43,5 +43,3 @@ The algorithm terminates when:
 ### Significance:
 
 The DPLL algorithm forms the basis for many modern SAT solvers. While simple in its original form, its core ideas of unit propagation and decision branching are fundamental. More advanced solvers, like those based on the [[mention:CDCL Algorithm|Conflict-Driven Clause Learning (CDCL)]] algorithm, extend DPLL with sophisticated techniques such as conflict analysis, clause learning, non-chronological backtracking, and efficient data structures to handle much larger and more complex problems.
-
-A formula in CNF is a [[uses:Logical Conjunction|conjunction]] of clauses, where each clause is a [[uses:Logical Disjunction|disjunction]] of literals.
