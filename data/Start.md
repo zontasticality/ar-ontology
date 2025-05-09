@@ -29,3 +29,7 @@ Link Types
  - `cites` - should be used to link to `source` nodes, to cite that source.
 
 If you're curious about the source code of this repository, check out the following link: https://github.com/zontasticality/ar-ontology
+
+## AI Disclosure
+
+`Gemini 2.5 Pro 03-25` and `Gemini 2.5 Pro 05-06` was used for summarization of sources for the reader's convenience and can be found in the source nodes. Models were also used as a writing aid due to the sheer amount of content required to create a comprehensive ontology. All AI output was used for drafting purposes only and rewritten.
