@@ -16,9 +16,7 @@ The signature for the (extensional) theory of arrays typically includes:
     -   `store` (or `write`): $\text{store} : \text{Array} \times \text{Index} \times \text{Value} \rightarrow \text{Array}$
         -   Returns a new array that is identical to the input array except at the given index, where it stores the new value.
 -   **Predicate symbols**:
-    -   Equality for arrays ($=_A$) is often part of the theory, especially for extensional arrays.
-
-The signature details are also outlined in [[mention:First Order Logic#Array]].
+    -   Equality for arrays ($=_A$) is often included.
 
 ### Axioms (McCarthy Axioms)
 The core of the theory of arrays is defined by the McCarthy axioms:
@@ -34,3 +32,7 @@ SMT solvers may support arrays with or without extensionality. Non-extensional a
 
 ### Usage
 The theory of arrays is fundamental for verifying properties of programs that manipulate array-like data structures. [[mention:SMT Solver|SMT solvers]] provide efficient decision procedures for this theory, often in combination with other theories like integer arithmetic (for array indices) or bit-vectors.
+
+### Source
+
+[[cite:Efficient SMT Solving for Bit-Vectors and the Extensional Theory of Arrays]]

@@ -1,9 +1,9 @@
 ---
-title: Rule of Inference
+title: Theorem
 type: structure
 ---
 
-A Theorem is [[is-a:Well-Formed Formula]] that can be constructed according to the [[uses:Rule of Inference]] (plural) of a [[mentions: Formal System]], and therefore can be reached by logical deduction. 
+A Theorem is [[is-a:Well-Formed Formula]] that can be constructed according to the [[part:Rule of Inference]] (plural) of a [[mentions: Formal System]], and therefore can be reached by logical deduction. 
 
 There are well-formed formulas that cannot be theorems because they are not provable within the system; they may be true or false. 
 

@@ -29,22 +29,37 @@ record_types:
     fill: "#858585"
     stroke: "#858585"
 link_types:
-  is-a: # something is in another category
+  # Link to a direct supertype of this node (i.e. a direct broader category)
+  is-a:
     stroke: simple
     color: "#C5F136"
     force: 20
-  uses:
+  # Link to a direct component of this node
+  part:
     color: "#00B2D1"
     stroke: simple
-    force: 15
-  mentions:
-    stroke: simple
-    color: "#FF8686"
-    force: 5
+    force: 20
+  # Link to an indirect / broad supertype of this node
+  is-broadly:
+    color: "#C5F136"
+    stroke: dash
+    force: 10
+  # Link to a relevant but not direct/super important component of this node. (i.e. you don't want the two nodes to be super close)
+  uses:
+    color: "#00B2D1"
+    stroke: dash
+    force: 10
+  # Use to connect to objects that are equivalent
   equivalent:
     stroke: simple
     color: "#EA72FF"
+    force: 5
+  # Use to mention-link to another nodes
+  mentions:
+    stroke: dash
+    color: "#FF8686"
     force: 1
+  # Use 
   cites:
     stroke: simple
     color: "#000000"

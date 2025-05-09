@@ -2,6 +2,6 @@
 title: Type Theory
 type: category
 ---
-A Type theory is a [[is-a: Formal System]] that is an alternative to [[equivalent: Logical Framework]]that provides a formal system for classifying and reasoning about [[uses: Types]]. It is a foundational theory in computer science and logic, used to define the structure of data and the behavior of programs.
+A **type theory** is a [[is-a:formal system]] that is an alternative to [[equivalent:formal logic]] that provides a formal system for classifying and reasoning about [[part:type|types]]. It is a foundational theory in computer science and logic, used to define the structure of data and the behavior of programs.
 
-Type theory is a generalization of [[uses:type|types]] in programming languages, and is used to prevent errors by ensuring that operations are applied to data of the appropriate kind.
+Type theory is the mathematical formalization of the concept of [[uses:type|types]] in programming languages, and in that context they are used to prevent errors by ensuring that operations are applied to data of the appropriate kind, but they are much more powerful than that and have the potential enable formalization of all of math.

@@ -3,6 +3,6 @@ title: Formal System
 type: structure
 ---
 
-A Formal System is a generalized, abstraction that includes a set of [[uses:Well-Formed Formulas]], created by a [[uses: Formal Grammar]], and [[uses: Rule of Inference]]. 
+A **Formal System** is a general term that includes a set of [[uses:Well-Formed Formula]]s, created by a [[uses: Formal Grammar]], and some kind of inference rule, either [[uses:rule of inference|logical]] or [[uses:typing rule|type-theoretic]].
 
-Examples of formal systems include [[mentions:Formal Logic]] and [[mentions:Type Theory]].
+Examples of formal systems include instances of [[mentions:Formal Logic]] and [[mentions:Type Theory]].

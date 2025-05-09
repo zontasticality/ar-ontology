@@ -20,8 +20,8 @@ First-order theories provide the axiomatic basis for many branches of mathematic
 Many specific logical systems are instances of first-order theories:
 - **Integer Arithmetic**: [[mention:Theory of Integer Arithmetic]].
 - **Theory of Real Arithmetic**: [[mention:Theory of Real Arithmetic]].
-- **Zermelo-Fraenkel Set Theory (ZFC)**: [[mention:Theory of Sets]].
+- **Zermelo-Fraenkel Set Theory (ZFC)**
 - Theories used in [[mention:SMT Solver|SMT solvers]], such as:
-  - **Arrays** [[mention:Theory of Arrays]].
-  - **Bit Vectors** [[mention:Theory of Bit Vectors]].
-  - **Uninterpreted Functions** [[mention:Theory of Uninterpreted Functions]].
+  - **Arrays**: [[mention:Theory of Arrays]].
+  - **Bit Vectors**: Theory of Bit Vectors.
+  - **Uninterpreted Functions**: [[mention:Theory of Uninterpreted Functions]].

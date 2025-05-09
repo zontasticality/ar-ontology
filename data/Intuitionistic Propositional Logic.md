@@ -2,7 +2,7 @@
 title: Intuitionistic Propositional Logic
 type: structure
 ---
-**Intuitionistic Propositional Logic (IPL)** is a [[is-a:logical framework]] that is a variant of [[mentions:propositional logic]] where the [[mention:law of the excluded middle]] is not assumed as an axiom. IPL is an instance of [[uses:Implicational Intuitionistic Propositional Logic]] with the following additional constructions:
+**Intuitionistic Propositional Logic (IPL)** is a [[is-a:formal logic]] that is a variant of [[mentions:propositional logic]] where the [[mention:law of the excluded middle]] is not assumed as an axiom. IPL is an instance of [[uses:Implicational Intuitionistic Propositional Logic]] with the following additional constructions:
 
  - [[uses:True]]: $\top$
  - [[uses:False]]: $\bot$

@@ -2,7 +2,7 @@
 title: Curry-Howard Correspondence
 type: argument
 ---
-The Curry-Howard correspondence (also known as the Curry-Howard isomorphism or the proofs-as-programs paradigm) proposes some kind of relation between [[uses:logical framework|logical frameworks]] and [[uses:type theory|type theories]].
+The Curry-Howard correspondence (also known as the Curry-Howard isomorphism or the proofs-as-programs paradigm) proposes some kind of relation between [[uses:Formal Logic|logical frameworks]] and [[uses:type theory|type theories]].
 
 It establishes a direct correspondence between:
  - Propositions and Types: A logical proposition corresponds to a type in some type theory.
