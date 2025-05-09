@@ -43,4 +43,4 @@ Specific examples of typing rules can be found in various type theories, such as
 -   [[mention:Simply Typed Lambda Calculus]]
 -   [[mention:Intuitionistically-Typed Lambda Calculus]]
 -   [[mention:Classically Typed Lambda Calculus]]
--   [[mention:Martin-Loff Type Theory]]
+-   [[mention:Martin-Lof Type Theory]]
