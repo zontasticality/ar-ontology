@@ -16,4 +16,4 @@ MLTT adds the following to the [[part:simply typed lambda calculus]] (some of it
 
 MLTT is inherently constructive. A proof of a proposition (represented as a type) is a program (a term inhabiting that type). For example, to prove an existentially quantified statement (a Σ-type), one must construct a [[mention:expression|term]] to "inhabit" the existential type and prove that the existential property is true.
 
-It is related to [[equivalent:Intuitionistic First Order Logic]] via the [[mention:Curry-Howard Correspondence]], but Martin-Loff is more general in a sense that most, if not all [[mention:first order logic theory|first order logic theories]] can be formulated using MLTT directly via inductive types instead of needing to be added via extra deduction rules.
+It is related to [[equivalent:Intuitionistic First Order Logic]] via the [[mention:Curry-Howard Correspondence]], but Martin-Lof is more general in a sense that most, if not all [[mention:first order logic theory|first order logic theories]] can be formulated using MLTT directly via inductive types instead of needing to be added via extra deduction rules.
