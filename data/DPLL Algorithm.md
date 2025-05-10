@@ -7,7 +7,7 @@ The **DPLL algorithm** is an algorithm for [[uses:propositional formula|proposit
 
 ### How it Works
 
-The algorithm systematically explores the space of all possible combinations of truth [[uses:Assignment|assignments]] for each of the variables in the formula. It operates through a recursive process involving three main steps:
+The algorithm systematically explores the space of all possible combinations of truth [[uses:Assignment|assignments]] for each of the variables in the formula. It operates through a recursive/iterative process described as follows:
 
 **Input**
  - A [[uses:Propositional Formula]] in [[uses:Conjunctive Normal Form (CNF)|Conjunctive Normal Form]]
