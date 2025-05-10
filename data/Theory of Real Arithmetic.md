@@ -14,6 +14,3 @@ The **Theory of Real Arithmetic** is a [[is-a:First Order Logic Theory]] that fo
 -   **Predicate symbols**:
     -   Equality: $= : \text{Real} \times \text{Real} \rightarrow \text{Bool}$
     -   Less than: $< : \text{Real} \times \text{Real} \rightarrow \text{Bool}$
-
-
-TODO Do formal axioms.
