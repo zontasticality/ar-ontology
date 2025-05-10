@@ -2,13 +2,13 @@
 title: First Order Logic Theory
 type: structure
 ---
-A **first order logic theory**, is a formal system that extends [[uses:First Order Logic]] with extra [[part:rule of inference|logical inference rules]]. These rules come in two flavors:
+A **first order logic theory**, is a formal system that extends [[uses:first order logic]] with extra [[part:rule of inference|logical inference rules]]. These rules come in two flavors:
 
 1. **Signature** ($\Sigma$): A set of non-logical symbols particular to the theory. This typically includes:
    - Constant symbols (e.g., $0, 1$ in arithmetic).
    - Function symbols (e.g., $+, \times$ in arithmetic, along ith their arities).
    - Predicate symbols (e.g., $\leq, =$ in arithmetic, along with their arities).
-   - (Optionally, sorts if using many-sorted first-order logic, as seen in the examples within [[mention:First Order Logic]]).
+   - (Optionally, sorts if using many-sorted first-order logic, as seen in the examples within [[mention:first order logic]]).
    - These can be thought of as [[uses:Axiom]]s.
 
 2. A collection of ways to construct more complicated formulas from basic symbols. Expressed as more inference rules.

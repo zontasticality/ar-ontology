@@ -3,6 +3,6 @@ title: False
 type: structure
 ---
 
-False is one of the two terms of the [[uses:Boolean]] type, the other being [[uses:True]].
+False is one of the two terms of the [[uses:boolean]] type, the other being [[uses:true]].
 
-It is often used as a constant within [[uses:Propositional Logic]], commonly represented by the symbol $\bot$.
+It is often used as a constant within [[uses:propositional logic]], commonly represented by the symbol $\bot$.

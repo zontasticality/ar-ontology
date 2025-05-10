@@ -18,5 +18,3 @@ The process generally involves:
 4. **Conflict Resolution:** If the theory solver finds a conflict (i.e., the set of theory atoms is inconsistent), it generates a "theory lemma" (a constraint implied by the theory) that explains the conflict. This lemma is added to the boolean abstraction as a clause, and the process repeats from step 2.
 
 5. **Satisfiable/Unsatisfiable:** If the SAT solver finds an assignment that is consistent with the theory, the original formula is satisfiable. If the SAT solver exhausts all possibilities (including those refined by theory lemmas) without finding a consistent assignment, the original formula is unsatisfiable.
-
-TODO: Formalize this in pseudo-code maybe? (dependently typed language pseudocode?)
