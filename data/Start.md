@@ -7,6 +7,10 @@ type: start
 
 This is an ontology to catalogue and investigate concepts in Automated Reasoning. Specifically to answer the question: [[mention:Feasibility of Program Inference|To what degree can existing logical frameworks and their satisfiability algorithms be generalized and applied to inferring programs in different type theories?]].
 
+## Before You Start
+
+***For an improved ontology viewing experience it is recommended to tweak the settings on the sidebar to hide `uses` and `mention` links.***
+
 ## Types
 
 Ontologies have types for their nodes and links between nodes, and this one is no exception! The node and link types (and their meanings) are as follows:
@@ -32,4 +36,4 @@ If you're curious about the source code of this repository, check out the follow
 
 ## AI Disclosure
 
-`Gemini 2.5 Pro 03-25` and `Gemini 2.5 Pro 05-06` was used for summarization of sources for the reader's convenience and can be found in the source nodes. Models were also used as a writing aid due to the sheer amount of content required to create a comprehensive ontology. All AI output was used for drafting purposes only and rewritten.
+`Gemini 2.5 Pro 03-25` and `Gemini 2.5 Pro 05-06` output was used verbatim for helping readers explore sources for the reader's convenience. Models were also used as a writing aid due to the sheer amount of content required to create a comprehensive ontology. For the ontology AI output was used for idea-generation and drafting purposes only and rewritten.
